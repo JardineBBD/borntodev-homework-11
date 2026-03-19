@@ -1,0 +1,113 @@
+body{
+    background-color: #FFF8F0;
+}
+
+.name_shop{
+    text-align: center;
+    margin-top: 50px;
+    color: #4B2E2B;
+}
+
+.header{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #4B2E2B;
+    border-radius: 5px;
+}
+
+.header_left{
+    padding: 20px;
+    text-align: start;
+    color: #4B2E2B;
+}
+
+.header_middle{
+    padding: 20px;
+    text-align: center;
+color: white;
+}
+
+.search_input{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.header_right{
+    color: #4B2E2B;
+    padding: 20px;
+    text-align: end;
+    color: white;
+    text-decoration: none;
+}
+
+.element_a{
+    color: #4B2E2B;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.products{
+    background-color: white;
+    width: 90%;
+    height: 100vh;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.card{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 420px;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 280px 40px 40px 40px;
+    border: 3px solid #8C5A3C;
+    border-radius: 10px;
+}
+
+img{
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.btn{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    gap:10px;
+}
+
+.btn_buy{
+    background-color: #C08552;
+    border-radius: 5px;
+    color: #FFF8F0;
+}
+
+.btn_buy:hover{
+    background-color: #8C5A3C;
+}
+
+img{
+    border: 3px solid #8C5A3C;
+    border-radius: 10px;
+}
