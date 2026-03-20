@@ -27,7 +27,7 @@ body{
 .header_middle{
     padding: 20px;
     text-align: center;
-    color: white;
+color: white;
 }
 
 .search_input{
@@ -53,21 +53,16 @@ body{
 .products{
     background-color: white;
     width: 90%;
-    /* height: 100vh; */
+    height: 100vh;
     margin-top: 50px;
-    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 10px; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
 }
 
@@ -115,21 +110,4 @@ img{
 img{
     border: 3px solid #8C5A3C;
     border-radius: 10px;
-}
-
-.special{
-    order: -1;
-    animation: changecolor 1s linear infinite ;
-}
-
-@keyframes changecolor {
-    0%{
-        background-color: #FFF8F0;
-    }
-    50%{
-        background-color: #C08552;
-    }
-    100%{
-        background-color: #FFF8F0;
-    }
 }
